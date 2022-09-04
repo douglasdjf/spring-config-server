@@ -23,3 +23,20 @@ spring:
     - native
 ```
 
+
+# Remoto GITHUB
+
+### Configurar application.yml
+
+```
+spring:
+  application:
+    name: greeting-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/douglasdjf/spring-config-server
+          #username: 
+          #password: 
+```
