@@ -1,9 +1,14 @@
-server:
-  port: 8888
-  
 spring:
   application:
-    name: spring-config-server
-  profiles:
-    active:
-    - native
+    name: greeting-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*' 
+  
+greeting-service:
+   greeting: "Olá ambiente DEV"
+   default-value: "Mundo"
