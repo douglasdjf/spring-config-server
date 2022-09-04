@@ -26,6 +26,18 @@ spring:
 
 # Remoto GITHUB
 
+### Acessar as propriedades de configuração Remota
+
+Irá buscar no repositório do github que esta referenciado no application.yml
+
+http://localhost:8888/greeting-service/default;
+
+http://localhost:8888/greeting-service/dev;
+
+http://localhost:8888/greeting-service/hml;
+
+http://localhost:8888/greeting-service/prod;
+
 ### Configurar application.yml
 
 ```
